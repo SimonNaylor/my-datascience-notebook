@@ -1,7 +1,7 @@
 # my-datascience-notebook
 Small project getting a docker python data science development environment up and running.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](your-mybinder-link)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SimonNaylor/my-datascience-notebook/main)
 
 The built image is [hosted on Docker-Hub](https://hub.docker.com/repository/docker/naylorsimj/my-datascience-notebook).
 
@@ -35,4 +35,3 @@ services:
     volumes:
       - .:/home/jovyan/work
 ```
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SimonNaylor/my-datascience-notebook/HEAD)
