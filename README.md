@@ -1,5 +1,5 @@
 # my-datascience-notebook
-Small project getting adocker python data science development environment up and running.
+Small project getting a docker python data science development environment up and running.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](your-mybinder-link)
 
@@ -35,6 +35,4 @@ services:
     volumes:
       - .:/home/jovyan/work
 ```
-```
-
-```
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SimonNaylor/my-datascience-notebook/HEAD)
