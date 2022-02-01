@@ -7,22 +7,22 @@ The built image is [hosted on Docker-Hub](https://hub.docker.com/repository/dock
 
 ## Using this repo
 ### With `docker`
-Build:
 
 ```bash
 docker build fill-in-the-rest
-This below is what is requred to build the docker image.
+This below is what is required to build the docker image.
 ```
 
 Run:
 
 ```bash
-docker run fill-in-the-rest
+This creates and launches a stack that we will build on.
 docker run --rm -p 10000:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook:b418b67c225b
 ```
 
 ### With `docker-compose`
 Build and run:
+This creates and specifies what we want to do and on what ports.
 
 ```bash
 docker-compose up
