@@ -3,7 +3,7 @@ Small project getting adocker python data science development environment up and
 
 [![Binder](https://mybinder.org/badge_logo.svg)](your-mybinder-link)
 
-The built image is [hosted on Docker-Hub](link-to-your-dockerhub).
+The built image is [hosted on Docker-Hub](https://hub.docker.com/repository/docker/naylorsimj/my-datascience-notebook).
 
 ## Using this repo
 ### With `docker`
@@ -11,7 +11,7 @@ Build:
 
 ```bash
 docker build fill-in-the-rest
-This below is what is requred to build the docker image. 
+This below is what is requred to build the docker image.
 ```
 
 Run:
@@ -34,4 +34,7 @@ services:
       - "8888:8888"
     volumes:
       - .:/home/jovyan/work
+```
+```
+
 ```
