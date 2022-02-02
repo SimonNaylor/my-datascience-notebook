@@ -1,7 +1,7 @@
 # requirements.txt
 
-pip install eli5
+install eli5
 eli5==0.11.0
 
-pip install numpy
+install numpy
 numpy==1.22.0
