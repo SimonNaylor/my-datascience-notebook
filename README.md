@@ -17,7 +17,7 @@ Run:
 
 ```bash
 This creates and launches a stack that we will build on.
-docker run --rm -p 10000:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook:b418b67c225b
+docker run --rm -p 10000:8888 -v "${PWD}":/home/jovyan/wodrk jupyter/datascience-notebook:b418b67c225b
 ```
 
 ### With `docker-compose`
@@ -29,7 +29,7 @@ docker-compose up
 version: "3.9"  # optional since v1.27.0
 services:
   jupyter:
-    image: jupyter/datascience-notebook:b418b67c225b
+    image: naylorsimj/my-datascience-notebook
     ports:
       - "8888:8888"
     volumes:
