@@ -1,8 +1,8 @@
 version: "3.9"  # optional since v1.27.0
 services:
   jupyter:
-    image: naylorsimj/my-datascience-notebook
+    image: deargle/my-datascience-notebook
     ports:
-      - "8888:8888"
+      - "10000:8888"
     volumes:
       - .:/home/jovyan/work
